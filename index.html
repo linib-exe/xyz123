@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: red;
+        }
+
+        #one{
+            font-size: 25px;
+        }
+
+        #two{
+            font-size: 50px;
+        }
+
+        #top-div{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <div id="top-div">
+        <h1>Admission Form</h1>
+        <p>Please fill all the fields</p>
+    <input type="text" placeholder="Username"><br><br>
+    <input type="password" placeholder="Password"><br><br>
+    <label for="gender-div">Gender</label>
+    <div id="gender-div">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female"><br><br>
+    </div>
+    <label for="math">Math</label>
+    <input type="checkbox" id="math">
+    <label for="phy">Physics</label>
+    <input type="checkbox" id="phy">
+    <label for="chem">Chemistry</label>
+    <input type="checkbox" id="chem"><br><br>
+    <input type="submit" value="Send">
+    <select name="province" id="aa">
+        <option value="Koshi">Koshi</option>
+        <option value="Bagmati">Bagmati</option>
+        <option value="Lumbini">Lumbini</option>
+    </select>
+    </div>
+</form>
+</body>
+</html>
